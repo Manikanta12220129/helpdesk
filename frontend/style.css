@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #4f8cff, #2ecc71 60%);
+  min-height: 100vh;
+  margin: 0;
+  color: #24292e;
+}
+
+.container {
+  background: #fff;
+  border-radius: 14px;
+  max-width: 400px;
+  margin: 46px auto 0 auto;
+  padding: 36px 30px 30px 30px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.16);
+}
+
+h1, h2 {
+  color: #4f8cff;
+  text-align: center;
+}
+
+input, textarea, button {
+  width: 100%;
+  font-size: 1.08em;
+  margin: 10px 0 16px 0;
+  padding: 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 7px;
+  background: #f9f9f9;
+}
+
+button {
+  background: #4f8cff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #2974fa;
+}
+
+a {
+  display: block;
+  color: #4f8cff;
+  margin-top: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.front-links a {
+  margin: 6px auto;
+  background: #eaf6ff;
+  padding: 7px 13px;
+  border-radius: 8px;
+  font-size: 1.07em;
+  box-shadow: 0 1px 8px rgba(79,140,255,0.3);
+  display: inline-block;
+}
+
+#ticketsList .ticket-box {
+  border: 1px solid #e1e4e8;
+  margin-bottom: 18px;
+  padding: 13px 12px;
+  border-radius: 9px;
+  background: #f5f8ff;
+  box-shadow: 0 1px 5px rgba(44,204,113,0.09);
+}
+.home-button {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 8px 15px;
+  background-color: #4f8cff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.home-button:hover {
+  background-color: #2974fa;
+}
+
